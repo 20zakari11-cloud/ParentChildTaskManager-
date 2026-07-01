@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Character 1: Beginner (Chick) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <path android:fillColor="#FBBF24"
+        android:pathData="M32,48 C22,48 14,40 14,30 C14,20 22,12 32,12 C42,12 50,20 50,30 C50,40 42,48 32,48Z" />
+    <circle android:fillColor="#1F2937" android:cx="26" android:cy="28" android:r="2" />
+    <circle android:fillColor="#1F2937" android:cx="38" android:cy="28" android:r="2" />
+    <path android:fillColor="#F97316"
+        android:pathData="M29,35 Q32,38 35,35 Q32,33 29,35Z" />
+</vector>
