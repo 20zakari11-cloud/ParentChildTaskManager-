@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مدير مهام الأسرة</string>
+    <string name="role_question">من أنت؟</string>
+    <string name="btn_mother">الأم 👩‍👦</string>
+    <string name="btn_child">الطفل 👦</string>
+    <string name="add_task">إضافة مهمة</string>
+    <string name="task_title_hint">عنوان المهمة</string>
+    <string name="task_desc_hint">وصف قصير (اختياري)</string>
+    <string name="send_task">إرسال للطفل</string>
+    <string name="snooze_btn">تأجيل 10 دقائق</string>
+    <string name="complete_btn">أنجزت المهمة!</string>
+    <string name="bedtime_title">وقت النوم</string>
+    <string name="notification_channel_tasks_name">تذكيرات المهام</string>
+    <string name="notification_channel_bedtime_name">وضع النوم</string>
+</resources>

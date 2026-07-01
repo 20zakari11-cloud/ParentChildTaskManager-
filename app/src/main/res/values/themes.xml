@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.ParentChildTaskManager" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/mother_primary</item>
+        <item name="colorPrimaryVariant">@color/mother_secondary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/child_primary</item>
+        <item name="colorSecondaryVariant">@color/child_secondary</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor">@color/mother_primary</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Theme.ParentChildTaskManager.Bedtime" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/bedtime_bg</item>
+        <item name="android:statusBarColor">@color/bedtime_bg</item>
+        <item name="android:navigationBarColor">@color/bedtime_bg</item>
+        <item name="colorPrimary">@color/bedtime_accent</item>
+        <item name="colorSurface">@color/bedtime_bg</item>
+    </style>
+
+    <style name="Theme.ParentChildTaskManager.NoActionBar" parent="Theme.ParentChildTaskManager">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>

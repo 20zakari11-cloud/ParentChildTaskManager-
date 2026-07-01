@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Night mode overrides — Bedtime activity uses its own dark theme unconditionally -->
+<resources>
+    <style name="Theme.ParentChildTaskManager" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/mother_primary</item>
+        <item name="colorPrimaryVariant">@color/mother_secondary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/child_primary</item>
+        <item name="android:statusBarColor">@color/mother_primary</item>
+    </style>
+</resources>
