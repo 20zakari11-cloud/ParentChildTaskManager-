@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "345821299260",
+    "project_id": "momchildapp",
+    "storage_bucket": "momchildapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345821299260:android:38c261e0f8bb4273e97939",
+        "android_client_info": {
+          "package_name": "com.parentchild.taskmanager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOQS-ZtmHrrfW-W6zJBu9KmBaS6SVFGi8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
