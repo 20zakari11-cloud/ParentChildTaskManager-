@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bedtime_bg">
+
+    <!-- Reminder phase (first 5 minutes) -->
+    <LinearLayout
+        android:id="@+id/layoutReminder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="32dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🌙"
+            android:textSize="80sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="حان وقت النوم قريباً"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/bedtime_text"
+            android:layout_marginTop="16dp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="استعد للنوم يا صغير"
+            android:textSize="18sp"
+            android:textColor="@color/bedtime_text"
+            android:alpha="0.7"
+            android:layout_marginTop="8dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/tvReminderCountdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="05:00"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            android:textColor="@color/bedtime_accent"
+            android:layout_marginTop="32dp" />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="حتى وضع النوم الكامل"
+                android:textSize="14sp"
+                android:textColor="@color/bedtime_text"
+                android:alpha="0.6"
+                android:layout_marginTop="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnDismiss"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(للأم) إلغاء وضع النوم"
+            android:textColor="@color/bedtime_text"
+            android:alpha="0.5"
+            android:layout_marginTop="48dp" />
+
+    </LinearLayout>
+
+    <!-- Full bedtime phase (after 5 minutes) -->
+    <LinearLayout
+        android:id="@+id/layoutFullBedtime"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="32dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🌙✨"
+            android:textSize="96sp" />
+
+        <TextView
+            android:id="@+id/tvSleepMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="وقت النوم يا صغير 🌙"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/bedtime_text"
+            android:gravity="center"
+            android:layout_marginTop="24dp"
+            android:lineSpacingExtra="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="نم جيداً وستنجز مهامك غداً 💤"
+            android:textSize="16sp"
+            android:textColor="@color/bedtime_text"
+            android:alpha="0.7"
+            android:gravity="center"
+            android:layout_marginTop="12dp" />
+
+    </LinearLayout>
+
+</FrameLayout>
