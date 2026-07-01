@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand -->
+    <color name="mother_primary">#7C3AED</color>
+    <color name="mother_secondary">#A78BFA</color>
+    <color name="child_primary">#10B981</color>
+    <color name="child_secondary">#6EE7B7</color>
+
+    <!-- Backgrounds -->
+    <color name="bg_light">#F5F3FF</color>
+    <color name="bg_child">#ECFDF5</color>
+    <color name="bg_role_selection">#5B21B6</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Bedtime (dark) -->
+    <color name="bedtime_bg">#0F0A1E</color>
+    <color name="bedtime_text">#E2D9F3</color>
+    <color name="bedtime_accent">#7C3AED</color>
+    <color name="bedtime_color">#1E1B4B</color>
+
+    <!-- Status -->
+    <color name="status_pending">#F59E0B</color>
+    <color name="status_snoozed">#6B7280</color>
+    <color name="status_completed">#10B981</color>
+    <color name="star_color">#FBBF24</color>
+
+    <!-- Text -->
+    <color name="text_primary">#1F2937</color>
+    <color name="text_secondary">#6B7280</color>
+
+    <!-- Material defaults -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+</resources>
