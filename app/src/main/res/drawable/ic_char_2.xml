@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Character 2: Learner -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <path android:fillColor="#FDE68A"
+        android:pathData="M32,50 C21,50 12,41 12,30 C12,19 21,10 32,10 C43,10 52,19 52,30 C52,41 43,50 32,50Z" />
+    <circle android:fillColor="#1F2937" android:cx="25" android:cy="27" android:r="2.5" />
+    <circle android:fillColor="#1F2937" android:cx="39" android:cy="27" android:r="2.5" />
+    <path android:fillColor="#F97316"
+        android:pathData="M28,36 Q32,40 36,36 Q32,34 28,36Z" />
+    <!-- Book -->
+    <rect android:fillColor="#7C3AED" android:x="22" android:y="44" android:width="20" android:height="12" android:rx="2" />
+</vector>

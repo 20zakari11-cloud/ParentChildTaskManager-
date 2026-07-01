@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Character 3: Active (Fox) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <path android:fillColor="#F97316"
+        android:pathData="M32,50 C20,50 11,41 11,29 C11,17 20,8 32,8 C44,8 53,17 53,29 C53,41 44,50 32,50Z" />
+    <path android:fillColor="#FDE68A"
+        android:pathData="M32,44 C26,44 22,40 22,34 Q22,30 32,28 Q42,30 42,34 C42,40 38,44 32,44Z" />
+    <!-- Ears -->
+    <path android:fillColor="#F97316" android:pathData="M18,16 L10,4 L24,12Z" />
+    <path android:fillColor="#F97316" android:pathData="M46,16 L54,4 L40,12Z" />
+    <circle android:fillColor="#1F2937" android:cx="26" android:cy="27" android:r="2.5" />
+    <circle android:fillColor="#1F2937" android:cx="38" android:cy="27" android:r="2.5" />
+</vector>

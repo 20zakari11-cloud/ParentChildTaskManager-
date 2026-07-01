@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Character 4: Diligent (Lion) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <!-- Mane -->
+    <circle android:fillColor="#D97706" android:cx="32" android:cy="32" android:r="26" />
+    <!-- Face -->
+    <circle android:fillColor="#FDE68A" android:cx="32" android:cy="32" android:r="20" />
+    <circle android:fillColor="#1F2937" android:cx="25" android:cy="29" android:r="3" />
+    <circle android:fillColor="#1F2937" android:cx="39" android:cy="29" android:r="3" />
+    <!-- Nose -->
+    <circle android:fillColor="#F97316" android:cx="32" android:cy="35" android:r="2" />
+    <!-- Mouth -->
+    <path android:fillColor="#00000000" android:strokeColor="#1F2937" android:strokeWidth="1.5"
+        android:pathData="M28,38 Q32,42 36,38" />
+</vector>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Character 6: Legend (Fire Phoenix) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <!-- Flames outer -->
+    <path android:fillColor="#EF4444"
+        android:pathData="M32,4 C32,4 18,20 18,34 C18,48 32,60 32,60 C32,60 46,48 46,34 C46,20 32,4 32,4Z" />
+    <!-- Flames mid -->
+    <path android:fillColor="#F97316"
+        android:pathData="M32,14 C32,14 22,26 22,36 C22,46 32,56 32,56 C32,56 42,46 42,36 C42,26 32,14 32,14Z" />
+    <!-- Flames inner -->
+    <path android:fillColor="#FBBF24"
+        android:pathData="M32,24 C32,24 26,32 26,38 C26,44 32,52 32,52 C32,52 38,44 38,38 C38,32 32,24 32,24Z" />
+    <!-- Core -->
+    <circle android:fillColor="#FEF3C7" android:cx="32" android:cy="40" android:r="6" />
+</vector>
