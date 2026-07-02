@@ -7,9 +7,16 @@ workflows:
       java: 17
 
     scripts:
-      - name: Fix gradle permissions
+      - name: Prepare Gradle
         script: |
           chmod +x gradlew
+
+      - name: Generate wrapper if missing
+        script: |
+          if [ ! -f gradle/wrapper/gradle-wrapper.jar ]; then
+            echo "Wrapper missing - generating..."
+            gradle wrapper
+          fi
 
       - name: Build APK
         script: |
