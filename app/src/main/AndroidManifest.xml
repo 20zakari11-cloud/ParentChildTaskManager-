@@ -51,6 +51,13 @@
             android:screenOrientation="portrait"
             android:showWhenLocked="true"
             android:turnScreenOn="true" />
+        <activity
+    android:name=".ui.overlay.TaskOverlayActivity"
+    android:exported="false"
+    android:showWhenLocked="true"
+    android:turnScreenOn="true"
+    android:excludeFromRecents="true"
+    android:launchMode="singleTask" />
 
         <receiver
             android:name=".utils.SnoozeReceiver"
