@@ -2,11 +2,12 @@ workflows:
   android-workflow:
     name: Android Build
     max_build_duration: 60
+
     environment:
-      vars:
-        JAVA_VERSION: 17
+      java: 17
+
     scripts:
-      - name: Set up
+      - name: Fix gradle permissions
         script: |
           chmod +x gradlew
 
