@@ -1,8 +1,7 @@
 plugins {
-    alias(libs.plugins.android.application)
-    alias(libs.plugins.kotlin.android)
-    alias(libs.plugins.kotlin.kapt)
-
+id("com.android.application") apply false
+id("org.jetbrains.kotlin.android") apply false
+id("org.jetbrains.kotlin.kapt") apply false
     // Firebase plugin (جاهز للتفعيل)
     alias(libs.plugins.google.services)
 }
