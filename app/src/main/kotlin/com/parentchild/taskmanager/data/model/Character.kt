@@ -13,15 +13,20 @@ data class Character(
 )
 
 object Characters {
+
+    val fallback = R.mipmap.ic_launcher
+
     val all = listOf(
-        Character(1, "المبتدئ", "Beginner",   unlockLevel = 1,  R.drawable.ic_char_1, "🐣"),
-        Character(2, "المتعلم",  "Learner",    unlockLevel = 2,  R.drawable.ic_char_2, "🐥"),
-        Character(3, "النشيط",   "Active",     unlockLevel = 3,  R.drawable.ic_char_3, "🦊"),
-        Character(4, "المجتهد",  "Diligent",   unlockLevel = 5,  R.drawable.ic_char_4, "🦁"),
-        Character(5, "البطل",    "Hero",       unlockLevel = 7,  R.drawable.ic_char_5, "🦅"),
-        Character(6, "الأسطورة", "Legend",     unlockLevel = 10, R.drawable.ic_char_6, "🔥")
+        Character(1, "المبتدئ", "Beginner", 1, fallback, "🐣"),
+        Character(2, "المتعلم", "Learner", 2, fallback, "🐥"),
+        Character(3, "النشيط", "Active", 3, fallback, "🦊"),
+        Character(4, "المجتهد", "Diligent", 5, fallback, "🦁"),
+        Character(5, "البطل", "Hero", 7, fallback, "🦅"),
+        Character(6, "الأسطورة", "Legend", 10, fallback, "🔥")
     )
 
     fun getUnlockedFor(level: Int) = all.filter { it.unlockLevel <= level }
-    fun getActiveFor(level: Int): Character = getUnlockedFor(level).last()
+
+    fun getActiveFor(level: Int): Character =
+        getUnlockedFor(level).lastOrNull() ?: all.first()
 }
